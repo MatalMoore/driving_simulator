@@ -125,7 +125,7 @@ void handle_movement();
 
 Shape* get_colliding_shape(const Shape& colliding_shape, const vector<Shape*> collideable_shapes);
 
-int main(int argc, char **argv) {
+int main(int argc, char** argv) {
   string dummy;
 
   glutInit(&argc, argv);
